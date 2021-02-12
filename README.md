@@ -67,7 +67,7 @@ See the files
 [sobol-test.mlb](lib/github.com/diku-dk/sml-sobol/test/sobol-test.mlb)
 and
 [sobol-test.sml](lib/github.com/diku-dk/sml-sobol/test/sobol-test.sml)
-for a demonstration of how to use the package.
+for a demonstration of how to use the package. See below for an image created using `sobol-test.exe`.
 
 ## Authors
 
@@ -81,3 +81,17 @@ Acceleration: Tricky Cases of Functional High-Performance
 Computing__. In _Proceedings of the 6th ACM SIGPLAN workshop on
 Functional High-Performance Computing (FHPC ‘18)_. St. Louis, Missouri,
 USA. September 2018.
+
+## Appendix : Output Image for `sobol-test.exe`
+
+The image below is created with the following commands:
+
+```
+$ cd lib/github.com/diku-dk/sml-sobol/test/
+$ make sobol-test.exe
+$ ./sobol-test.exe -N 10000 -f out.ppm && convert out.ppm out.png
+```
+
+Here is the image:
+
+![image](https://user-images.githubusercontent.com/1167803/107779072-2a03df80-6d45-11eb-88aa-64e2e96fc120.png)
