@@ -64,9 +64,9 @@ command part of your build process.
 ## Using the package
 
 See the files
-[sobol-test.mlb](lib/githu.com/diku-dk/sml-sobol/test/sobol-test.mlb)
+[sobol-test.mlb](lib/github.com/diku-dk/sml-sobol/test/sobol-test.mlb)
 and
-[sobol-test.sml](lib/githu.com/diku-dk/sml-sobol/test/sobol-test.sml)
+[sobol-test.sml](lib/github.com/diku-dk/sml-sobol/test/sobol-test.sml)
 for a demonstration of how to use the package.
 
 ## Authors
