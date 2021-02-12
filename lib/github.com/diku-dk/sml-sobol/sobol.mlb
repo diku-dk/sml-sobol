@@ -1,0 +1,8 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+in
+  sobol_dir.sig
+  sobol_dir50.sml
+  sobol.sig
+  sobol.sml
+end
