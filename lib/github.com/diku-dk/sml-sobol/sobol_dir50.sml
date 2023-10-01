@@ -7,6 +7,7 @@
    available from https://github.com/diku-dk/sobol-futhark
  *)
 
+(** SigDoc *)
 structure SobolDir50 : SOBOL_DIR = struct
 
 val n : int = 50
